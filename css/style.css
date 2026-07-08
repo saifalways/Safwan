@@ -1,0 +1,479 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*!        navbar         */
+
+
+
+
+.navbar {
+    padding: 20px 0;
+    background: #FFFFFF !important;
+}
+
+.navbar .navbar-nav {
+    margin: 0 auto;
+    column-gap: 43px !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #E5745D;
+}
+
+.navbar .navbar-nav .nav-item .active {
+    font-size: 18px;
+    color: #E5745D;
+}
+
+.navbar .btn {
+    padding: 13px 44px;
+    background-color: #E5745D;
+    color: #FFFFFF;
+    font-family: "Jost", sans-serif;
+    border: 2px solid #E5745D;
+}
+
+
+
+
+
+
+
+
+
+/*!      heroarea        */
+
+
+.heroarea {}
+
+.heroarea .row {
+    background-color: #00413D;
+}
+
+.heroarea .row .col-lg-6:nth-child(1) {
+    padding: 121px 0 121px 180px;
+    z-index: 99;
+}
+
+.heroarea .row .col-lg-6:nth-child(1) h1 {
+    font-family: "Vollkorn", serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 90px;
+    font-size: 70px;
+    width: 834px;
+    margin: 0 0 14px 0;
+    letter-spacing: 0px;
+}
+
+.heroarea .row .col-lg-6:nth-child(1) p {
+    font-family: "Jost", sans-serif;
+    color: #ad9a9a;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 19px;
+    width: 500px;
+    margin: 0 0 40px 0;
+}
+
+.heroarea .row .col-lg-6:nth-child(1) p span {
+    font-family: "Jost", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px;
+    width: 670px;
+}
+
+.heroarea .row .col-lg-6:nth-child(1) button {
+    padding: 13px 44px;
+    background-color: #E5745D;
+    color: #FFFFFF;
+    font-family: "Jost", sans-serif;
+    border-radius: 10px;
+    border: 2px solid #E5745D;
+}
+
+.heroarea .row .col-lg-6:nth-child(2) {
+    background: #C4C4C4;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/*!       services        */
+
+
+.services {
+    padding: 150px 0 100px 0;
+}
+
+.services .title {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.services .title .hed {
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #E5745D;
+    margin: 0 0 15px 0;
+
+}
+
+.services .title .pare {
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    width: 517px;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.services .col-lg-4 .card {
+    padding: 50px 0 50px 32px;
+    border: 0;
+}
+
+.services .col-lg-4 .card-body {
+    padding: 0;
+}
+
+.services .col-lg-4 .card .img {
+    height: 64px;
+    width: 64px;
+    margin: 0 0 24px 0;
+}
+
+.services .col-lg-4 .card .img img {
+    height: 100%;
+    width: 100%;
+    color: #E5745D;
+}
+
+.services .col-lg-4 .card .card-title {
+    font-family: "Vollkorn", serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #00413D;
+    margin: 0 0 15px 0;
+}
+
+.services .col-lg-4 .card .card-text {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #00413D;
+    margin: 0 0 20px 0;
+}
+
+.services .col-lg-4 .card i {
+    font-size: 17px;
+    color: #E5745D;
+}
+
+
+
+
+
+
+
+
+
+
+/*!         aboutMe           */
+
+.aboutMe {
+    padding: 0 0 100px 0;
+}
+
+.aboutMe .col-lg-6 {}
+
+.aboutMe .col-lg-6 .flex {
+    display: flex;
+}
+
+.aboutMe .col-lg-6 .flex .imgLeft {
+    width: 370px;
+    height: 385px;
+    background: #C4C4C4;
+    margin: 0 30px 0 0;
+}
+
+.aboutMe .col-lg-6 .flex .imgLeft img {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutMe .col-lg-6 .flex .imgRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe .col-lg-6 .flex .imgRight .imgOne {
+    width: 170px;
+    height: 180px;
+    margin: 0 0 25px 0;
+    background: #C4C4C4;
+}
+
+.aboutMe .col-lg-6 .flex .imgRight .imgOne img {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutMe .col-lg-6 .flex .imgRight .imgTwo {
+    width: 170px;
+    height: 180px;
+    background: #C4C4C4;
+}
+
+.aboutMe .col-lg-6 .flex .imgRight .imgTwo img {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutMe .col-lg-6 h6 {
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #E5745D;
+    margin: 0 0 11px 0;
+}
+
+.aboutMe .col-lg-6 h2 {
+
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+    width: 550px;
+    color: #00413D;
+}
+
+.aboutMe .col-lg-6 p {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    width: 540px;
+    color: #00413D;
+}
+
+.aboutMe .col-lg-6 button {
+
+    padding: 13px 44px;
+    background-color: #E5745D;
+    color: #FFFFFF;
+    font-family: "Jost", sans-serif;
+    border-radius: 10px;
+    border: 2px solid #E5745D;
+    margin: 15px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*!       design         */
+.design {
+    padding: 0 0 50px 0;
+}
+
+.design .card {
+    border: 0;
+    width: 270px;
+    border-radius: 1px;
+
+}
+
+.design .card .img {
+    height: 150px;
+    width: 150px;
+    margin: 25px auto;
+}
+
+.design .card .img img {
+    height: 100%;
+    width: 100%;
+}
+
+.design .card h5 {
+    margin: 0 auto 25px auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: auto;
+    color: #00413D;
+    font-family: "Vollkorn", serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*!       project        */
+
+.project {
+    padding: 100px 0;
+}
+
+.project .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0 0 40px 0;
+}
+
+.project .title .left h6 {
+    font-weight: 400;
+    font-size: 19px;
+    color: #E5745D;
+    font-family: "Vollkorn", serif;
+    margin: 0 0 8px 0;
+}
+
+.project .title .left h3 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 55px;
+    color: #00413D;
+    font-family: "Vollkorn", serif;
+    margin: 0;
+}
+
+.project .title .right {
+    margin: 0 0 12px 0;
+}
+
+.project .title .right i {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.project .title .right i:nth-child(1) {
+    font-size: 14px;
+    color: #00413D;
+    padding: 6px 20px 5px 9px;
+    border: 1px solid #00413D;
+}
+
+.project .title .right i:nth-child(2) {
+    font-size: 14px;
+    color: #00413D;
+    padding: 6px 20px 5px 9px;
+    border: 1px solid #00413D;
+    background-color: #E5745D;
+}
+
+.project .title .right i:hover {
+    background-color: #E5745D;
+    color: #ffffff;
+}
+
+.project .card {
+    border: 0;
+    width: auto;
+
+}
+
+.project .card .project-img {
+    width: 416px;
+    height: 290px;
+    background-color: #c4c4c4;
+
+}
+
+.project .card .card-body {
+    padding: 30px;
+}
+
+.project .card .card-body .card-title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: auto;
+    color: #E5745D;
+    font-family: "Vollkorn", serif;
+    margin: 0 0 10px 0;
+}
+
+.project .card .card-body .card-subtitle {
+    font-weight: 300;
+    font-size: 24px;
+    width: 304px;
+    line-height: 30px;
+    color: #00413D;
+    font-family: "Vollkorn", serif;
+    margin: 0 0 10px 0;
+}
+
+.project .card .card-body .card-text {
+    font-weight: 300;
+    font-size: 16px;
+    width: 289px;
+    line-height: 24px;
+    color: #00413D;
+    font-family: "jost", serif;
+    margin: 0 0 30px 0;
+}
+
+.project .card .card-body .btn {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: normal;
+    color: #00413D;
+    font-family: "jost", serif;
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+
+.project .card .card-body i {
+    position: relative;
+    top: 2px;
+    left: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.project .card .card-body .btn:hover {
+    color: #E5745D;
+}
+
+.project .card .card-body .btn:hover i {
+    transform: translateX(10px);
+}
