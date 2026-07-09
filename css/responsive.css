@@ -1,0 +1,467 @@
+@media (min-width:320px) and (max-width:575.99px) {
+
+
+
+
+
+
+    /*!            navbar        */
+
+
+
+
+
+    .navbar .btn {
+        padding: 3px 7px;
+    }
+
+
+
+
+
+
+    /*!     heroarea      */
+
+
+    .heroarea .row .col-lg-6:nth-child(1) {
+        padding: 15px 0;
+        z-index: 99;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) h1 {
+        line-height: normal;
+        font-size: 32px;
+        width: auto;
+        text-align: center;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) p {
+        line-height: 28px;
+        font-size: 14px;
+        width: auto;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) p span {
+        font-size: 14px;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) .butn {
+        text-align: center;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) button {
+        padding: 4px 7px;
+    }
+
+
+
+
+
+    /*!            services            */
+
+
+
+    .services {
+        padding: 50px 0 100px 0;
+    }
+
+    .title h5 {
+        font-size: 14px;
+    }
+
+    .title p {
+        font-size: 32px;
+        line-height: 47px;
+        width: auto;
+    }
+
+    .services .col-lg-4 .card {
+        padding: 22px 20px 22px 22px;
+        margin: 0 auto 20px auto;
+    }
+
+    .services .col-lg-4 .card .card-title {
+        font-size: 14px;
+        margin: 0px 0 10px 0;
+    }
+
+    .services .col-lg-4 .card .card-text {
+        font-size: 13px;
+    }
+
+    .aboutMe .col-lg-6 h2 {
+        font-size: 32px;
+        line-height: 48px;
+        width: auto;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 p {
+        font-size: 14px;
+        line-height: 22px;
+        width: auto;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+    /*!        aboutMe         */
+
+
+
+    .aboutMe .col-lg-6 h6 {
+        font-size: 15px;
+        margin: 60px 0 11px 0;
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 .btun {
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 button {
+        padding: 4px 7px;
+    }
+
+
+
+
+
+
+
+
+    /*!           design         */
+
+
+
+    .design .card {
+        width: 100%;
+    }
+
+
+    .design .card .img {
+        height: auto;
+        width: 39%;
+    }
+
+    .design .card h5 {
+        font-size: 17px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*!            project         */
+
+
+
+    .project {
+        padding: 100px 0 0 0;
+    }
+
+    .project .title {
+        display: block;
+    }
+
+    .project .title {
+        text-align: center;
+    }
+
+    .project .title .left h5 {
+        text-align: center;
+        font-size: 16px;
+        margin: 0 0 7px 0;
+    }
+
+    .project .title .left h3 {
+        font-size: 32px;
+        line-height: normal;
+        margin: 0 0 7px 0;
+    }
+
+    .project .title .right i:nth-child(2) {
+        background-color: transparent;
+    }
+
+    .project .card .card-body i {
+        position: relative;
+        top: 1px;
+        left: 4px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .project .card {
+        margin: 0 0 20px 0;
+    }
+
+
+    .project .card .project-img {
+        width: 100%;
+        background-color: #c4c4c4;
+    }
+
+    .project .card .card-body .card-title {
+        font-size: 14px;
+        margin: 0 0 12px 0;
+    }
+
+    .project .card .card-body .card-subtitle {
+        font-size: 20px;
+        width: auto;
+        line-height: 27px;
+    }
+
+    .project .card .card-body .card-text {
+        font-size: 15px;
+        width: auto;
+        line-height: 24px;
+        margin: 0 0 20px 0;
+    }
+
+    .project .card .card-body .btn {
+        font-size: 12px;
+    }
+
+    .project .card .card-body i {
+        top: 1px;
+        left: 4px;
+    }
+
+    .project .endButton {
+        margin: 36px 0 0 0;
+    }
+
+    .project .endButton button {
+        padding: 3px 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!             portfolio          */
+
+
+    .portfolio {
+        padding: 90px 0;
+    }
+
+    .portfolio .navbar-toggler {}
+
+    .portfolio .title h5 {
+        font-size: 16px;
+        margin: 0 0 10px 0;
+    }
+
+    .portfolio .title h2 {
+        font-size: 32px;
+        letter-spacing: 0;
+    }
+
+    .portfolio .card .card-body {
+
+        padding: 15px;
+    }
+
+    .portfolio .card .card-body h5 {
+        font-size: 18px;
+    }
+
+    .portfolio .card .card-body p {
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+    /*!           testimonial        */
+    .testimonial {
+        padding: 100px 0 50px 0;
+    }
+
+    .testimonial .title h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .testimonial .details p {
+        font-size: 12px;
+        width: auto;
+        text-align: center;
+    }
+
+    .testimonial .details .prsn {
+        justify-content: center;
+        margin: 0 0 20px 0;
+    }
+
+    .testimonial .details .prsn .name h4 {
+        font-size: 16px;
+    }
+
+    .testimonial .details .prsn .name h6 {
+        font-size: 10px;
+    }
+
+    .testimonial .details .prsn .name i {
+        font-size: 7px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!         inputForm           */
+
+
+    .inputForm {
+        padding: 120px 0 70px 0;
+    }
+
+    .inputForm .col-lg-7 .title {
+        text-align: center;
+        margin: 49px 0 10px 0;
+    }
+
+    .title p {
+        line-height: normal;
+    }
+
+    .inputForm .col-lg-7 .form-group input {
+        padding: 30px 0 8px 0;
+        font-size: 16px;
+    }
+
+    .inputForm .col-lg-7 .form-btn .contact {
+        padding: 3px 9px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!         blog         */
+
+
+    .blog {
+        padding: 0 0 60px 0;
+    }
+
+    .blog .card {
+        justify-self: start;
+        margin: 0px auto 25px auto;
+    }
+
+    .card .card-body .title .card-title {
+        font-size: 12px;
+    }
+
+    .card .card-body .title h6 {
+        font-size: 12px;
+    }
+
+    .card .card-body h2 {
+        font-size: 22px;
+        width: auto;
+        margin: 0 0 10px 0;
+    }
+
+    .card .card-body .card-text {
+        font-size: 13px;
+        margin: 0px 0 15px 0;
+    }
+
+    .card .card-body .ancor .btn {
+        font-size: 13px;
+    }
+
+    .card .card-body .ancor i {
+        transform: translatex(-223px) translateY(1px);
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!           footer          */
+
+
+    .footer {
+        padding: 50px 0 1px 0;
+    }
+
+    .footer .logo {
+        margin: 0 0 32px 0;
+    }
+
+    .footer .footerNav .nav-link {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .footer .socialMedia ul {
+        margin: 0 6% 0 0;
+    }
+
+    .footer .socialMedia ul li i {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .footer .socialMedia {
+        padding: 0 0 30px 0;
+        border-bottom: 1px solid #0c4a4c;
+    }
+
+    .footer .ending {
+        margin: 10px 0 0 0;
+    }
+
+    .footer .ending p {
+        font-size: 10px;
+    }
+
+
+
+}
