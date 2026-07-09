@@ -8,6 +8,40 @@
 
 
 
+
+
+
+
+/* title */
+
+.title {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.title h5 {
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #E5745D;
+    margin: 0 0 15px 0
+}
+
+.title p {
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    width: 517px;
+    color: #000000;
+    margin: 0 auto;
+}
+
+
+
+
+
+
 /*!        navbar         */
 
 
@@ -39,11 +73,17 @@
 }
 
 .navbar .btn {
-    padding: 13px 44px;
-    background-color: #E5745D;
+    padding: 15px 35px;
+    background: #E5745D;
+    border: 2px solid #ffffff;
+    outline: 3px solid #E5745D;
+    font-family: "jost", serif;
+    font-weight: 500;
     color: #FFFFFF;
-    font-family: "Jost", sans-serif;
-    border: 2px solid #E5745D;
+    border-radius: 0;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 
@@ -99,12 +139,16 @@
 }
 
 .heroarea .row .col-lg-6:nth-child(1) button {
-    padding: 13px 44px;
-    background-color: #E5745D;
+    padding: 15px 35px;
+    background: #E5745D;
+    border: 2px solid #ffffff;
+    outline: 3px solid #E5745D;
+    font-family: "jost", serif;
+    font-weight: 500;
     color: #FFFFFF;
-    font-family: "Jost", sans-serif;
-    border-radius: 10px;
-    border: 2px solid #E5745D;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .heroarea .row .col-lg-6:nth-child(2) {
@@ -128,30 +172,6 @@
     padding: 150px 0 100px 0;
 }
 
-.services .title {
-    text-align: center;
-    margin: 0 0 40px 0;
-}
-
-.services .title .hed {
-    font-family: "Vollkorn", serif;
-    font-weight: 400;
-    font-size: 17px;
-    color: #E5745D;
-    margin: 0 0 15px 0;
-
-}
-
-.services .title .pare {
-    font-family: "Vollkorn", serif;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 55px;
-    width: 517px;
-    color: #000000;
-    margin: 0 auto;
-}
-
 .services .col-lg-4 .card {
     padding: 50px 0 50px 32px;
     border: 0;
@@ -165,6 +185,7 @@
     height: 64px;
     width: 64px;
     margin: 0 0 24px 0;
+    background: none;
 }
 
 .services .col-lg-4 .card .img img {
@@ -279,6 +300,7 @@
     line-height: 55px;
     width: 550px;
     color: #00413D;
+    margin: 0 0 10px 0;
 }
 
 .aboutMe .col-lg-6 p {
@@ -288,17 +310,20 @@
     line-height: 25px;
     width: 540px;
     color: #00413D;
+    margin: 0 0 20px 0;
 }
 
 .aboutMe .col-lg-6 button {
-
-    padding: 13px 44px;
-    background-color: #E5745D;
+    padding: 15px 35px;
+    background: #E5745D;
+    border: 2px solid #ffffff;
+    outline: 3px solid #E5745D;
+    font-family: "jost", serif;
+    font-weight: 500;
     color: #FFFFFF;
-    font-family: "Jost", sans-serif;
-    border-radius: 10px;
-    border: 2px solid #E5745D;
-    margin: 15px 0 0 0;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 
@@ -312,6 +337,13 @@
 
 
 /*!       design         */
+
+
+
+
+
+
+
 .design {
     padding: 0 0 50px 0;
 }
@@ -327,6 +359,7 @@
     height: 150px;
     width: 150px;
     margin: 25px auto;
+    background: none;
 }
 
 .design .card .img img {
@@ -367,11 +400,12 @@
     margin: 0 0 40px 0;
 }
 
-.project .title .left h6 {
+.project .title .left h5 {
     font-weight: 400;
     font-size: 19px;
     color: #E5745D;
     font-family: "Vollkorn", serif;
+    text-align: left;
     margin: 0 0 8px 0;
 }
 
@@ -460,7 +494,7 @@
 }
 
 .project .card .card-body .btn {
-    font-weight: 300;
+    font-weight: 500;
     font-size: 18px;
     line-height: normal;
     color: #00413D;
@@ -491,14 +525,16 @@
 }
 
 .project .endButton button {
-    padding: 13px 44px;
-    background-color: #E5745D;
+    padding: 15px 35px;
+    background: #E5745D;
+    border: 2px solid #ffffff;
+    outline: 3px solid #E5745D;
+    font-family: "jost", serif;
+    font-weight: 500;
     color: #FFFFFF;
-    font-family: "Jost", sans-serif;
-    border: 2px solid #E5745D;
-    border-radius: 2px;
-    width: auto;
-    margin: 0 auto;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 
@@ -578,8 +614,8 @@
     top: 20px;
     right: 20PX;
     font-size: 25px;
-    width: 50px; 
-    height: 50px; 
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -590,7 +626,7 @@
     transition: all 0.3s ease-in-out;
     opacity: 0;
     z-index: 2;
-    
+
 }
 
 
@@ -600,7 +636,7 @@
 
 .portfolio .card:hover .hover-arrow {
     opacity: 1;
-    
+
 }
 
 .portfolio .hover-arrow:hover {
@@ -628,4 +664,372 @@
     line-height: normal;
     font-family: "jost", serif;
     margin: 0;
+}
+
+
+
+
+
+/*!       testimonial       */
+
+.testimonial {
+    padding: 121px 0 170px 0;
+    background: #F9F4F1;
+}
+
+
+
+.testimonial .title h3 {
+    font-weight: 600;
+    font-size: 50px;
+    color: #00413D;
+    line-height: 50px;
+    font-family: "Vollkorn", serif;
+    margin: 0 0 11px 0;
+    letter-spacing: 2px;
+}
+
+.testimonial .orange {
+    width: 100%;
+    height: 10px;
+    background: #E5745D;
+}
+
+.testimonial .details p {
+    font-family: "jost", serif;
+    margin: 30px 50px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 476px;
+}
+
+.testimonial .details .prsn {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin: 0 0 0 60px;
+}
+
+.testimonial .details .prsn .img {
+    width: 85px;
+    height: 85px;
+    background: #cccccc;
+    border-radius: 50%;
+}
+
+.testimonial .details .prsn .name h4 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #00413D;
+    line-height: normal;
+    font-family: "Vollkorn", serif;
+    margin: 0;
+}
+
+.testimonial .details .prsn .name h6 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #00413D;
+    line-height: normal;
+    font-family: "jost", serif;
+    margin: 0;
+}
+
+.testimonial .details .prsn .name i {
+    font-size: 10px;
+    color: #E5745D;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*!         from         */
+
+
+
+
+
+
+
+.inputForm {
+    padding: 120px 0;
+}
+
+
+.inputForm .col-lg-5 .img {
+    width: 100%;
+    height: 580px;
+    background: #cccccc;
+}
+
+.inputForm .col-lg-7 .title {
+    text-align: left;
+    margin: 40px 0;
+}
+
+.inputForm .col-lg-7 .title p {
+    margin: 0 0px;
+}
+
+.inputForm .col-lg-7 .form-group {}
+
+.inputForm .col-lg-7 .form-group input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #d3e2e0;
+    /* হালকা নিচের বর্ডার */
+    padding: 40px 0 10px 0;
+    background: transparent;
+    font-size: 20px;
+    color: #00413D;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-family: "jost", serif;
+}
+
+.inputForm .col-lg-7 .form-group input:focus {
+    border-bottom: 2px solid #000000;
+    outline: none;
+}
+
+.inputForm .col-lg-7 .form-btn {
+    margin: 50px 0 0 0;
+}
+
+.inputForm .col-lg-7 .form-btn .contact {
+    padding: 15px 35px;
+    background: #E5745D;
+    border: 2px solid #ffffff;
+    outline: 3px solid #E5745D;
+    font-family: "jost", serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.inputForm .col-lg-7 .form-btn .contact:hover {
+
+    background-color: #d1634c;
+    outline-color: #d1634c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!       blog       */
+
+
+
+.blog {
+    padding: 0 0 120px 0;
+}
+
+.blog .col-lg-4:nth-child(1) .card {
+    justify-self: start;
+}
+
+.blog .col-lg-4:nth-child(2) .card {
+    justify-self: center;
+}
+
+.blog .col-lg-4:nth-child(3) .card {
+    justify-self: end;
+}
+
+
+
+.card {
+    border: none;
+}
+
+.card .img {
+    width: 100%;
+    height: 240px;
+    background-color: #cccccc;
+}
+
+
+
+.card .card-body {
+    padding: 20px 30px 30px;
+}
+
+.card .card-body .title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.card .card-body .title .card-title {
+    font-size: 13px;
+
+}
+
+.card .card-body .title h6 {
+    font-family: "jost", serif;
+    font-weight: 400;
+    color: #00413D;
+    font-size: 13px;
+
+}
+
+.card .card-body h2 {
+    font-family: "vollkorn", serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #00413D;
+    margin: 0 0 11px 0;
+}
+
+.card .card-body .card-text {
+    font-family: "jost", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00413D;
+    margin: 0 0 24px 0;
+}
+
+.card .card-body .ancor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card .card-body .ancor .btn {
+    background: none;
+    border: none;
+    color: #00413D;
+    font-family: "jost", serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0;
+}
+
+.card .card-body .ancor i {
+    transform: translatex(-145px) translateY(1px);
+    transition: .3s ease-in-out;
+}
+
+.card .card-body .ancor:hover i {
+    transform: translatex(-135px);
+}
+
+
+
+
+
+
+
+
+
+
+/*!        footer      */
+
+.footer {
+    padding: 80px 0 20px 0;
+    background-color: #00413D;
+}
+
+.footer .logo {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.footer .footerNav .nav {
+    /* column-gap: 20px; */
+}
+
+.footer .footerNav .nav-item {
+    border-right: 1px solid #655151;
+}
+
+.footer .footerNav .nav-item:nth-child(5) {
+    border: none;
+}
+
+.footer .footerNav .nav-link {
+    font-family: "jost", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+    margin: 0 20px 0 20px;
+    line-height: 0;
+    transition: 0.3s;
+}
+
+.footer .footerNav .nav-link:hover {
+    color: #d1634c;
+}
+
+
+.footer .socialMedia {
+    margin: 40px 0 0 0;
+    padding: 0 0 90px 0;
+    border-bottom: 1px solid #0c4a4c;
+}
+
+.footer .socialMedia ul {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    margin: 0 2% 0 0;
+}
+
+.footer .socialMedia ul li {
+    list-style: none;
+}
+
+.footer .socialMedia ul li a {
+    text-decoration: none;
+}
+
+.footer .socialMedia ul li i {
+    color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    background: #E5745D;
+    font-size: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .ending {
+    text-align: center;
+    margin: 30px 0 0 0;
+
+}
+
+.footer .ending p {
+    font-family: "jost", serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+
 }
