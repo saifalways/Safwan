@@ -183,6 +183,7 @@
 .services .col-lg-4 .card {
     padding: 50px 0 50px 32px;
     border: 0;
+    width: 25rem;
 }
 
 .services .col-lg-4 .card-body {
@@ -217,6 +218,7 @@
     line-height: 22px;
     color: #00413D;
     margin: 0 0 20px 0;
+    width: 336px;
 }
 
 .services .col-lg-4 .card i {
@@ -862,6 +864,10 @@
 
 .blog {
     padding: 0 0 120px 0;
+}
+
+.blog .col-lg-4 .card {
+    width: 23rem;
 }
 
 .blog .col-lg-4:nth-child(1) .card {

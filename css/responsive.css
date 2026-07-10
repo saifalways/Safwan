@@ -222,7 +222,7 @@
     }
 
     .project .card .card-body .card-subtitle {
-        font-size: 20px;
+        font-size: 18px;
         width: auto;
         line-height: 27px;
     }
@@ -460,6 +460,1990 @@
 
     .footer .ending p {
         font-size: 10px;
+    }
+
+
+
+}
+
+@media (min-width:576px) and (max-width:767.99px) {
+
+
+
+
+
+
+    /*!            navbar        */
+
+
+
+
+
+    .navbar .btn {
+        padding: 3px 7px;
+    }
+
+
+
+
+
+
+    /*!     heroarea      */
+
+
+    .heroarea .row .col-lg-6:nth-child(1) {
+        padding: 15px 0;
+        z-index: 99;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) h1 {
+        line-height: normal;
+        font-size: 32px;
+        width: auto;
+        text-align: center;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) p {
+        line-height: 28px;
+        font-size: 14px;
+        width: auto;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) p span {
+        font-size: 14px;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) .butn {
+        text-align: center;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) button {
+        padding: 4px 7px;
+    }
+
+
+
+
+
+    /*!            services            */
+
+
+
+    .services {
+        padding: 50px 0 100px 0;
+    }
+
+    .title h5 {
+        font-size: 14px;
+    }
+
+    .title p {
+        font-size: 32px;
+        line-height: 47px;
+        width: auto;
+    }
+
+    .services .col-lg-4 .card {
+        padding: 22px 20px 22px 22px;
+        margin: 0 auto 20px auto;
+        width: 90%;
+    }
+
+    .services .col-lg-4 .card .card-title {
+        font-size: 17px;
+        margin: 0px 0 10px 0;
+    }
+
+    .services .col-lg-4 .card .card-text {
+        font-size: 15px;
+    }
+
+    .aboutMe .col-lg-6 h2 {
+        font-size: 32px;
+        line-height: 48px;
+        width: auto;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 p {
+        font-size: 14px;
+        line-height: 22px;
+        width: auto;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+    /*!        aboutMe         */
+
+
+
+    .aboutMe .col-lg-6 h6 {
+        font-size: 15px;
+        margin: 60px 0 11px 0;
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 .btun {
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 button {
+        padding: 4px 7px;
+    }
+
+
+
+
+
+
+
+
+    /*!           design         */
+
+
+
+    .design .card {
+        width: 100%;
+    }
+
+
+    .design .card .img {
+        height: auto;
+        width: 39%;
+    }
+
+    .design .card h5 {
+        font-size: 17px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*!            project         */
+
+
+
+    .project {
+        padding: 100px 0 0 0;
+    }
+
+    .project .title {
+        display: block;
+    }
+
+    .project .title {
+        text-align: center;
+    }
+
+    .project .title .left h5 {
+        text-align: center;
+        font-size: 16px;
+        margin: 0 0 7px 0;
+    }
+
+    .project .title .left h3 {
+        font-size: 32px;
+        line-height: normal;
+        margin: 0 0 7px 0;
+    }
+
+    .project .title .right i:nth-child(2) {
+        background-color: transparent;
+    }
+
+    .project .card .card-body i {
+        position: relative;
+        top: 1px;
+        left: 4px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .project .card {
+        margin: 0 0 20px 0;
+    }
+
+
+    .project .card .project-img {
+        width: 100%;
+        background-color: #c4c4c4;
+    }
+
+    .project .card .card-body .card-title {
+        font-size: 14px;
+        margin: 0 0 12px 0;
+    }
+
+    .project .card .card-body .card-subtitle {
+        font-size: 18px;
+        width: auto;
+        line-height: 27px;
+    }
+
+    .project .card .card-body .card-text {
+        font-size: 15px;
+        width: auto;
+        line-height: 24px;
+        margin: 0 0 20px 0;
+    }
+
+    .project .card .card-body .btn {
+        font-size: 13px;
+    }
+
+    .project .card .card-body i {
+        top: 1px;
+        left: 4px;
+    }
+
+    .project .endButton {
+        margin: 36px 0 0 0;
+    }
+
+    .project .endButton button {
+        padding: 3px 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!             portfolio          */
+
+
+    .portfolio {
+        padding: 90px 0;
+    }
+
+    .portfolio .navbar-toggler {}
+
+    .portfolio .title h5 {
+        font-size: 16px;
+        margin: 0 0 10px 0;
+    }
+
+    .portfolio .title h2 {
+        font-size: 32px;
+        letter-spacing: 0;
+    }
+
+    .portfolio .card .card-body {
+
+        padding: 15px;
+    }
+
+    .portfolio .card .card-body h5 {
+        font-size: 18px;
+    }
+
+    .portfolio .card .card-body p {
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+    /*!           testimonial        */
+    .testimonial {
+        padding: 100px 0 50px 0;
+    }
+
+    .testimonial .title h5 {
+        font-size: 16px;
+    }
+
+
+    .testimonial .title h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .testimonial .details p {
+        font-size: 14px;
+        width: auto;
+        text-align: center;
+    }
+
+    .testimonial .details .prsn {
+        justify-content: center;
+        margin: 0 0 20px 0;
+    }
+
+    .testimonial .details .prsn .name h4 {
+        font-size: 17px;
+    }
+
+    .testimonial .details .prsn .name h6 {
+        font-size: 11px;
+    }
+
+    .testimonial .details .prsn .name i {
+        font-size: 8px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!         inputForm           */
+
+
+    .inputForm {
+        padding: 120px 0 70px 0;
+    }
+
+    .inputForm .col-lg-7 .title {
+        text-align: center;
+        margin: 49px 0 10px 0;
+    }
+
+    .title p {
+        line-height: normal;
+    }
+
+    .inputForm .col-lg-7 .form-group input {
+        padding: 30px 0 8px 0;
+        font-size: 16px;
+    }
+
+    .inputForm .col-lg-7 .form-btn .contact {
+        padding: 3px 9px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!         blog         */
+
+
+    .blog {
+        padding: 0 0 60px 0;
+    }
+
+    .blog .card {
+        justify-self: start;
+        margin: 0px auto 25px auto;
+    }
+
+    .card .card-body .title .card-title {
+        font-size: 13px;
+    }
+
+    .card .card-body .title h6 {
+        font-size: 13px;
+    }
+
+    .card .card-body h2 {
+        font-size: 24px;
+        width: auto;
+        margin: 0 0 10px 0;
+    }
+
+    .card .card-body .card-text {
+        font-size: 15px;
+        margin: 0px 0 15px 0;
+    }
+
+    .card .card-body .ancor .btn {
+        font-size: 15px;
+    }
+
+    .card .card-body .ancor i {
+        transform: translatex(-214px) translateY(1px);
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!           footer          */
+
+
+    .footer {
+        padding: 50px 0 1px 0;
+    }
+
+    .footer .logo {
+        margin: 0 0 32px 0;
+    }
+
+    .footer .footerNav .nav-link {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .footer .socialMedia ul {
+        margin: 0 6% 0 0;
+    }
+
+    .footer .socialMedia ul li i {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .footer .socialMedia {
+        padding: 0 0 30px 0;
+        border-bottom: 1px solid #0c4a4c;
+    }
+
+    .footer .ending {
+        margin: 10px 0 0 0;
+    }
+
+    .footer .ending p {
+        font-size: 10px;
+    }
+
+
+
+}
+
+@media (min-width:768px) and (max-width:991.99px) {
+
+
+
+
+
+
+    /*!            navbar        */
+
+
+
+
+
+    .navbar .btn {
+        padding: 3px 7px;
+    }
+
+
+
+
+
+
+    /*!     heroarea      */
+
+
+    .heroarea .row .col-lg-6:nth-child(1) {
+        padding: 30px 0;
+        z-index: 99;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) h1 {
+        line-height: normal;
+        font-size: 34px;
+        width: auto;
+        text-align: center;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) p {
+        line-height: 28px;
+        font-size: 16px;
+        width: auto;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) p span {
+        font-size: 16px;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) .butn {
+        text-align: center;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) button {
+        padding: 4px 7px;
+    }
+
+
+
+
+
+    /*!            services            */
+
+
+
+    .services {
+        padding: 100px 0 100px 0;
+    }
+
+    .title h5 {
+        font-size: 16px;
+    }
+
+    .title p {
+        font-size: 34px;
+        line-height: 47px;
+        width: auto;
+    }
+
+    .services .col-lg-4 .card {
+        padding: 22px 20px 22px 22px;
+        margin: 0 auto 20px auto;
+        width: 20rem;
+    }
+
+    .services .col-lg-4 .card .card-title {
+        font-size: 16px;
+        margin: 0px 0 10px 0;
+    }
+
+    .services .col-lg-4 .card .card-text {
+        font-size: 15px;
+        width: auto;
+    }
+
+    .aboutMe .col-lg-6 h2 {
+        font-size: 34px;
+        line-height: 48px;
+        width: auto;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 p {
+        font-size: 16px;
+        line-height: 22px;
+        width: auto;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+    /*!        aboutMe         */
+
+
+
+    .aboutMe .col-lg-6 h6 {
+        font-size: 16px;
+        margin: 60px 0 11px 0;
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 .btun {
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 button {
+        padding: 4px 7px;
+    }
+
+
+
+
+
+
+
+
+    /*!           design         */
+
+
+
+    .design .card {
+        width: 100%;
+    }
+
+
+    .design .card .img {
+        height: auto;
+        width: 39%;
+    }
+
+    .design .card h5 {
+        font-size: 19px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*!            project         */
+
+
+
+    .project {
+        padding: 100px 0 0 0;
+    }
+
+    .project .title {
+        display: block;
+    }
+
+    .project .title {
+        text-align: center;
+    }
+
+    .project .title .left h5 {
+        text-align: center;
+        font-size: 18px;
+        margin: 0 0 7px 0;
+    }
+
+    .project .title .left h3 {
+        font-size: 34px;
+        line-height: normal;
+        margin: 0 0 7px 0;
+    }
+
+    .project .title .right i:nth-child(2) {
+        background-color: transparent;
+    }
+
+    .project .card .card-body i {
+        position: relative;
+        top: 1px;
+        left: 4px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .project .card {
+        margin: 0 0 20px 0;
+    }
+
+
+    .project .card .project-img {
+        width: 100%;
+        background-color: #c4c4c4;
+    }
+
+    .portfolio .card .img {
+        height: 320px;
+    }
+
+    .project .card .card-body .card-title {
+        font-size: 16px;
+        margin: 0 0 12px 0;
+    }
+
+    .project .card .card-body .card-subtitle {
+        font-size: 22px;
+        width: auto;
+        line-height: 27px;
+    }
+
+    .project .card .card-body .card-text {
+        font-size: 16px;
+        width: auto;
+        line-height: 24px;
+        margin: 0 0 20px 0;
+    }
+
+    .project .card .card-body .btn {
+        font-size: 14px;
+    }
+
+    .project .card .card-body i {
+        top: 1px;
+        left: 4px;
+    }
+
+    .project .endButton {
+        margin: 36px 0 0 0;
+    }
+
+    .project .endButton button {
+        padding: 3px 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!             portfolio          */
+
+
+    .portfolio {
+        padding: 90px 0;
+    }
+
+    .portfolio .navbar-toggler {}
+
+    .portfolio .title h5 {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+    }
+
+    .portfolio .title h2 {
+        font-size: 34px;
+        letter-spacing: 0;
+    }
+
+    .portfolio .card .card-body {
+
+        padding: 15px;
+    }
+
+    .portfolio .card .card-body h5 {
+        font-size: 20px;
+    }
+
+    .portfolio .card .card-body p {
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+    /*!           testimonial        */
+    .testimonial {
+        padding: 100px 0 50px 0;
+    }
+
+    .testimonial .title h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .testimonial .details p {
+        font-size: 16px;
+        width: auto;
+        text-align: center;
+    }
+
+    .testimonial .details .prsn {
+        justify-content: center;
+        margin: 0 0 20px 0;
+    }
+
+    .testimonial .details .prsn .name h4 {
+        font-size: 18px;
+    }
+
+    .testimonial .details .prsn .name h6 {
+        font-size: 18px;
+    }
+
+    .testimonial .details .prsn .name i {
+        font-size: 9px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!         inputForm           */
+
+
+    .inputForm {
+        padding: 120px 0 70px 0;
+    }
+
+    .inputForm .title h5 {
+        font-size: 18px;
+    }
+
+    .inputForm .col-lg-7 .title {
+        text-align: center;
+        margin: 49px 0 10px 0;
+    }
+
+    .inputForm .col-lg-7 .title p {
+        font-size: 34px;
+    }
+
+    .title p {
+        line-height: normal;
+    }
+
+    .inputForm .col-lg-7 .form-group input {
+        padding: 30px 0 8px 0;
+        font-size: 18px;
+    }
+
+    .inputForm .col-lg-7 .form-group input {
+        padding: 35px 0 11px 0;
+        font-size: 18px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!         blog         */
+
+
+    .blog {
+        padding: 0 0 60px 0;
+    }
+
+    .blog .title h5 {
+        font-size: 18px;
+    }
+
+    .title p {
+        font-size: 36px;
+    }
+
+
+
+    .blog .col-lg-4 .card {
+        width: 21rem;
+        margin: 0 0 20px 0;
+    }
+
+    .card .card-body .title .card-title {
+        font-size: 14px;
+    }
+
+    .card .card-body .title h6 {
+        font-size: 14px;
+    }
+
+    .card .card-body h2 {
+        font-size: 24px;
+        width: auto;
+        margin: 0 0 10px 0;
+    }
+
+    .card .card-body .card-text {
+        font-size: 15px;
+        margin: 0px 0 15px 0;
+    }
+
+    .card .card-body .ancor .btn {
+        font-size: 15px;
+    }
+
+    .card .card-body .ancor i {
+        transform: translatex(-178px) translateY(1px);
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!           footer          */
+
+
+    .footer {
+        padding: 50px 0 1px 0;
+    }
+
+    .footer .logo {
+        margin: 0 0 32px 0;
+    }
+
+    .footer .footerNav .nav-link {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .footer .socialMedia ul {
+        margin: 0 6% 0 0;
+    }
+
+    .footer .socialMedia ul li i {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .footer .socialMedia {
+        padding: 0 0 30px 0;
+        border-bottom: 1px solid #0c4a4c;
+    }
+
+    .footer .ending {
+        margin: 10px 0 0 0;
+    }
+
+    .footer .ending p {
+        font-size: 10px;
+    }
+
+
+
+}
+
+@media (min-width:992px) and (max-width:1199.99px) {
+
+
+
+
+
+
+    /*!            navbar        */
+
+
+
+
+
+    .navbar .btn {
+        padding: 3px 7px;
+    }
+
+
+
+
+
+
+    /*!     heroarea      */
+
+
+    .heroarea .row .col-lg-6:nth-child(1) {
+        padding: 69px 0 78px 95px;
+        z-index: 99;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) h1 {
+        line-height: normal;
+        font-size: 60px;
+        width: 700px;
+        text-align: left;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) p {
+        line-height: 28px;
+        font-size: 16px;
+        width: auto;
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) p span {
+        font-size: 16px;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) .butn {
+        text-align: left;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) button {
+        padding: 5px 13px;
+    }
+
+
+
+
+
+    /*!            services            */
+
+
+
+    .services {
+        padding: 100px 0 100px 0;
+    }
+
+    .title h5 {
+        font-size: 17px;
+    }
+
+    .title p {
+        font-size: 35px;
+        line-height: 47px;
+        width: auto;
+    }
+
+    .services .col-lg-4 .card {
+        padding: 22px 20px 22px 22px;
+        margin: 0 auto 20px auto;
+        width: 18rem;
+    }
+
+    .services .col-lg-4 .card .card-title {
+        font-size: 17px;
+        margin: 0px 0 10px 0;
+    }
+
+    .services .col-lg-4 .card .card-text {
+        font-size: 16px;
+        width: auto;
+    }
+
+    .aboutMe .col-lg-6 h2 {
+        font-size: 35px;
+        line-height: 48px;
+        width: auto;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 p {
+        font-size: 17px;
+        line-height: 22px;
+        width: auto;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+    /*!        aboutMe         */
+
+
+
+    .aboutMe .col-lg-6 h6 {
+        font-size: 17px;
+        margin: 45px 0 16px 0;
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 h2 {
+        margin: 0 0 15px 0;
+    }
+
+    .aboutMe .col-lg-6 p {
+        margin: 0 0 24px 0;
+    }
+
+    .aboutMe .col-lg-6 .btun {
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 button {
+        padding: 4px 7px;
+    }
+
+
+
+
+
+
+
+
+    /*!           design         */
+
+
+
+    .design .card {
+        width: 100%;
+    }
+
+
+    .design .card .img {
+        height: auto;
+        width: 39%;
+    }
+
+    .design .card h5 {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*!            project         */
+
+
+
+    .project {
+        padding: 100px 0 0 0;
+    }
+
+    .project .title {
+        display: block;
+    }
+
+    .project .title {
+        text-align: center;
+    }
+
+    .project .title .left h5 {
+        text-align: center;
+        font-size: 18px;
+        margin: 0 0 7px 0;
+    }
+
+    .project .title .left h3 {
+        font-size: 34px;
+        line-height: normal;
+        margin: 0 0 7px 0;
+    }
+
+    .project .title .right i:nth-child(2) {
+        background-color: transparent;
+    }
+
+    .project .card .card-body i {
+        position: relative;
+        top: 1px;
+        left: 4px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .project .card {
+        margin: 0 0 20px 0;
+    }
+
+
+    .project .card .project-img {
+        width: 100%;
+        background-color: #c4c4c4;
+    }
+
+    .portfolio .card .img {
+        height: 320px;
+    }
+
+    .project .card .card-body .card-title {
+        font-size: 16px;
+        margin: 0 0 12px 0;
+    }
+
+    .project .card .card-body .card-subtitle {
+        font-size: 22px;
+        width: auto;
+        line-height: 27px;
+    }
+
+    .project .card .card-body .card-text {
+        font-size: 16px;
+        width: auto;
+        line-height: 24px;
+        margin: 0 0 20px 0;
+    }
+
+    .project .card .card-body .btn {
+        font-size: 14px;
+    }
+
+    .project .card .card-body i {
+        top: 1px;
+        left: 4px;
+    }
+
+    .project .endButton {
+        margin: 36px 0 0 0;
+    }
+
+    .project .endButton button {
+        padding: 3px 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!             portfolio          */
+
+
+    .portfolio {
+        padding: 90px 0;
+    }
+
+    .portfolio .navbar-toggler {}
+
+    .portfolio .title h5 {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+    }
+
+    .portfolio .title h2 {
+        font-size: 34px;
+        letter-spacing: 0;
+    }
+
+    .portfolio .card .card-body {
+
+        padding: 15px;
+    }
+
+    .portfolio .card .card-body h5 {
+        font-size: 20px;
+    }
+
+    .portfolio .card .card-body p {
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+    /*!           testimonial        */
+    .testimonial {
+        padding: 100px 0 50px 0;
+    }
+
+    .testimonial .title h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .testimonial .details p {
+        font-size: 16px;
+        width: auto;
+        text-align: center;
+    }
+
+    .testimonial .details .prsn {
+        justify-content: center;
+        margin: 0 0 20px 0;
+    }
+
+    .testimonial .details .prsn .name h4 {
+        font-size: 18px;
+    }
+
+    .testimonial .details .prsn .name h6 {
+        font-size: 18px;
+    }
+
+    .testimonial .details .prsn .name i {
+        font-size: 9px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!         inputForm           */
+
+
+    .inputForm {
+        padding: 120px 0 70px 0;
+    }
+
+    .inputForm .title h5 {
+        font-size: 18px;
+    }
+
+    .inputForm .col-lg-7 .title {
+        text-align: center;
+        margin: 49px 0 10px 0;
+    }
+
+    .inputForm .col-lg-7 .title p {
+        font-size: 34px;
+    }
+
+    .title p {
+        line-height: normal;
+    }
+
+
+
+    .inputForm .col-lg-7 .form-group input {
+        padding: 35px 0 11px 0;
+        font-size: 20px;
+    }
+
+    .inputForm .col-lg-7 .form-btn .contact {
+        padding: 10px 29px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!         blog         */
+
+
+    .blog {
+        padding: 0 0 60px 0;
+    }
+
+    .blog .title h5 {
+        font-size: 18px;
+    }
+
+    .title p {
+        font-size: 36px;
+    }
+
+
+
+    .blog .col-lg-4 .card {
+        width: 19rem;
+        margin: 0 0 20px 0;
+    }
+
+    .card .card-body .title .card-title {
+        font-size: 14px;
+    }
+
+    .card .card-body .title h6 {
+        font-size: 14px;
+    }
+
+    .card .card-body h2 {
+        font-size: 24px;
+        width: auto;
+        margin: 0 0 10px 0;
+    }
+
+    .card .card-body .card-text {
+        font-size: 15px;
+        margin: 0px 0 15px 0;
+    }
+
+    .card .card-body .ancor .btn {
+        font-size: 15px;
+    }
+
+    .card .card-body .ancor i {
+        transform: translatex(-148px) translateY(1px);
+        font-size: 14px;
+    }
+
+    .card .card-body .ancor:hover i {
+        transform: translatex(-138px) translateY(1px);
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!           footer          */
+
+
+    .footer {
+        padding: 50px 0 1px 0;
+    }
+
+    .footer .logo {
+        margin: 0 0 32px 0;
+    }
+
+    .footer .footerNav .nav-link {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .footer .socialMedia ul {
+        margin: 0 6% 0 0;
+    }
+
+    .footer .socialMedia ul li i {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .footer .socialMedia {
+        padding: 0 0 30px 0;
+        border-bottom: 1px solid #0c4a4c;
+    }
+
+    .footer .ending {
+        margin: 10px 0 0 0;
+    }
+
+    .footer .ending p {
+        font-size: 10px;
+    }
+
+
+
+}
+
+@media (min-width:1200px) and (max-width:1399.99px) {
+
+
+
+
+
+
+    /*!            navbar        */
+
+
+
+
+
+    .navbar .btn {
+        padding: 3px 7px;
+    }
+
+
+
+
+
+
+    /*!     heroarea      */
+
+
+    .heroarea .row .col-lg-6:nth-child(1) {
+        padding: 69px 0 78px 95px;
+        z-index: 99;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) h1 {
+        line-height: normal;
+        font-size: 60px;
+        width: 700px;
+        text-align: left;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) p {
+        line-height: 28px;
+        font-size: 16px;
+        width: auto;
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) p span {
+        font-size: 16px;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) .butn {
+        text-align: left;
+    }
+
+    .heroarea .row .col-lg-6:nth-child(1) button {
+        padding: 5px 13px;
+    }
+
+
+
+
+
+    /*!            services            */
+
+
+
+    .services {
+        padding: 100px 0 100px 0;
+    }
+
+    .title h5 {
+        font-size: 17px;
+    }
+
+    .title p {
+        font-size: 35px;
+        line-height: 47px;
+        width: auto;
+    }
+
+    .services .col-lg-4 .card {
+        padding: 22px 20px 22px 22px;
+        margin: 0 auto 20px auto;
+        width: 21rem;
+    }
+
+    .services .col-lg-4 .card .card-title {
+        font-size: 17px;
+        margin: 0px 0 10px 0;
+    }
+
+    .services .col-lg-4 .card .card-text {
+        font-size: 16px;
+        width: auto;
+    }
+
+    .aboutMe .col-lg-6 h2 {
+        font-size: 35px;
+        line-height: 48px;
+        width: auto;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 p {
+        font-size: 17px;
+        line-height: 22px;
+        width: auto;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+    /*!        aboutMe         */
+
+
+
+    .aboutMe .col-lg-6 h6 {
+        font-size: 17px;
+        margin: 45px 0 16px 0;
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 h2 {
+        margin: 0 0 15px 0;
+    }
+
+    .aboutMe .col-lg-6 p {
+        margin: 0 0 24px 0;
+    }
+
+    .aboutMe .col-lg-6 .btun {
+        text-align: center;
+    }
+
+    .aboutMe .col-lg-6 button {
+        padding: 4px 7px;
+    }
+
+
+
+
+
+
+
+
+    /*!           design         */
+
+
+
+    .design .card {
+        width: 100%;
+    }
+
+
+    .design .card .img {
+        height: auto;
+        width: 39%;
+    }
+
+    .design .card h5 {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*!            project         */
+
+
+
+    .project {
+        padding: 100px 0 0 0;
+    }
+
+    .project .title {
+        display: block;
+    }
+
+    .project .title {
+        text-align: center;
+    }
+
+    .project .title .left h5 {
+        text-align: center;
+        font-size: 18px;
+        margin: 0 0 7px 0;
+    }
+
+    .project .title .left h3 {
+        font-size: 34px;
+        line-height: normal;
+        margin: 0 0 7px 0;
+    }
+
+    .project .title .right i:nth-child(2) {
+        background-color: transparent;
+    }
+
+    .project .card .card-body i {
+        position: relative;
+        top: 1px;
+        left: 4px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .project .card {
+        margin: 0 0 20px 0;
+    }
+
+
+    .project .card .project-img {
+        width: 100%;
+        background-color: #c4c4c4;
+    }
+
+    .portfolio .card .img {
+        height: 320px;
+    }
+
+    .project .card .card-body .card-title {
+        font-size: 16px;
+        margin: 0 0 12px 0;
+    }
+
+    .project .card .card-body .card-subtitle {
+        font-size: 22px;
+        width: auto;
+        line-height: 27px;
+    }
+
+    .project .card .card-body .card-text {
+        font-size: 16px;
+        width: auto;
+        line-height: 24px;
+        margin: 0 0 20px 0;
+    }
+
+    .project .card .card-body .btn {
+        font-size: 14px;
+    }
+
+    .project .card .card-body i {
+        top: 1px;
+        left: 4px;
+    }
+
+    .project .endButton {
+        margin: 36px 0 0 0;
+    }
+
+    .project .endButton button {
+        padding: 3px 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!             portfolio          */
+
+
+    .portfolio {
+        padding: 90px 0;
+    }
+ 
+
+    .portfolio .title h5 {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+    }
+
+    .portfolio .title h2 {
+        font-size: 34px;
+        letter-spacing: 0;
+    }
+
+    .portfolio .card .card-body {
+
+        padding: 15px;
+    }
+
+    .portfolio .card .card-body h5 {
+        font-size: 20px;
+    }
+
+    .portfolio .card .card-body p {
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+    /*!           testimonial        */
+    .testimonial {
+        padding: 100px 0 50px 0;
+    }
+
+    .testimonial .title h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .testimonial .details p {
+        font-size: 16px;
+        width: auto;
+        text-align: center;
+    }
+
+    .testimonial .details .prsn {
+        justify-content: center;
+        margin: 0 0 20px 0;
+    }
+
+    .testimonial .details .prsn .name h4 {
+        font-size: 18px;
+    }
+
+    .testimonial .details .prsn .name h6 {
+        font-size: 18px;
+    }
+
+    .testimonial .details .prsn .name i {
+        font-size: 9px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!         inputForm           */
+
+
+    .inputForm {
+        padding: 120px 0 70px 0;
+    }
+
+    .inputForm .title h5 {
+        font-size: 18px;
+    }
+
+    .inputForm .col-lg-7 .title {
+        text-align: center;
+        margin: 49px 0 10px 0;
+    }
+
+    .inputForm .col-lg-7 .title p {
+        font-size: 34px;
+    }
+
+    .title p {
+        line-height: normal;
+    }
+
+
+
+    .inputForm .col-lg-7 .form-group input {
+        padding: 35px 0 11px 0;
+        font-size: 20px;
+    }
+
+    .inputForm .col-lg-7 .form-btn .contact {
+        padding: 10px 29px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!         blog         */
+
+
+    .blog {
+        padding: 0 0 60px 0;
+    }
+
+    .blog .title h5 {
+        font-size: 18px;
+    }
+
+    .title p {
+        font-size: 36px;
+    }
+
+
+
+    .blog .col-lg-4 .card {
+        width: 22rem;
+        margin: 0 0 20px 0;
+    }
+
+    .card .card-body .title .card-title {
+        font-size: 14px;
+    }
+
+    .card .card-body .title h6 {
+        font-size: 14px;
+    }
+
+    .card .card-body h2 {
+        font-size: 24px;
+        width: auto;
+        margin: 0 0 10px 0;
+    }
+
+    .card .card-body .card-text {
+        font-size: 15px;
+        margin: 0px 0 15px 0;
+    }
+
+    .card .card-body .ancor .btn {
+        font-size: 15px;
+    }
+
+    .card .card-body .ancor i {
+        transform: translatex(-195px) translateY(1px);
+        font-size: 14px;
+    }
+
+    .card .card-body .ancor:hover i {
+        transform: translatex(-185px) translateY(1px);
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*!           footer          */
+
+
+    .footer {
+        padding: 50px 0 1px 0;
+    }
+
+    .footer .logo {
+        margin: 0 0 32px 0;
+    }
+
+    .footer .footerNav .nav-link {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .footer .socialMedia ul {
+        margin: 0 6% 0 0;
+    }
+
+    .footer .socialMedia ul li i {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .footer .socialMedia {
+        padding: 0 0 30px 0;
+        border-bottom: 1px solid #0c4a4c;
+    }
+
+    .footer .ending {
+        margin: 10px 0 0 0;
+    }
+
+    .footer .ending p {
+        font-size: 10px;
+    }
+
+    .footer .nav-item {
+        padding: 0 10px;
     }
 
 
