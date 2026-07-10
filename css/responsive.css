@@ -80,6 +80,7 @@
     .services .col-lg-4 .card {
         padding: 22px 20px 22px 22px;
         margin: 0 auto 20px auto;
+        width: auto;
     }
 
     .services .col-lg-4 .card .card-title {
@@ -89,6 +90,7 @@
 
     .services .col-lg-4 .card .card-text {
         font-size: 13px;
+        width: auto;
     }
 
     .aboutMe .col-lg-6 h2 {
@@ -266,7 +268,7 @@
     .portfolio {
         padding: 90px 0;
     }
- 
+
 
     .portfolio .title h5 {
         font-size: 16px;
@@ -380,9 +382,10 @@
         padding: 0 0 60px 0;
     }
 
-    .blog .card {
-        justify-self: start;
-        margin: 0px auto 25px auto;
+
+
+    .blog .col-lg-4 .card {
+        width: 18rem;
     }
 
     .card .card-body .title .card-title {
@@ -402,6 +405,7 @@
     .card .card-body .card-text {
         font-size: 13px;
         margin: 0px 0 15px 0;
+        width: 100%;
     }
 
     .card .card-body .ancor .btn {
@@ -409,8 +413,12 @@
     }
 
     .card .card-body .ancor i {
-        transform: translatex(-223px) translateY(1px);
+        transform: translatex(-143px) translateY(0px);
         font-size: 12px;
+    }
+
+    .card .card-body .ancor:hover i {
+        transform: translatex(-143px) translateY(0px); 
     }
 
 
@@ -734,7 +742,7 @@
     .portfolio {
         padding: 90px 0;
     }
- 
+
 
     .portfolio .title h5 {
         font-size: 16px;
@@ -1212,7 +1220,7 @@
     .portfolio {
         padding: 90px 0;
     }
- 
+
 
     .portfolio .title h5 {
         font-size: 18px;
@@ -1712,7 +1720,7 @@
     .portfolio {
         padding: 90px 0;
     }
- 
+
 
     .portfolio .title h5 {
         font-size: 18px;
@@ -2218,7 +2226,7 @@
     .portfolio {
         padding: 90px 0;
     }
- 
+
 
     .portfolio .title h5 {
         font-size: 18px;
