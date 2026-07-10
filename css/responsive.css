@@ -386,6 +386,7 @@
 
     .blog .col-lg-4 .card {
         width: 18rem;
+        margin: 0 auto 15px auto;
     }
 
     .card .card-body .title .card-title {
@@ -418,7 +419,7 @@
     }
 
     .card .card-body .ancor:hover i {
-        transform: translatex(-143px) translateY(0px); 
+        transform: translatex(-143px) translateY(0px);
     }
 
 
